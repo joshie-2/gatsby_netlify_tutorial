@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div style={{ color: `teal` }}>
       <Header headerText="About Gatsby" />
-      <p>Such wow. Very React.</p>
+      <p>this is my place holder for my about page</p>
     </div>
   )
 }
