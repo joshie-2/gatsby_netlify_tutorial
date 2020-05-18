@@ -1,11 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
+import NavBar from "../components/navBar"
 import Header from "../components/header"
 export default function Home() {
   return (
     <div style={{ color: `purple` }}>
-      <Link to="/contact/">Contact</Link>
-      <Header headerText="Hello Gatsby" />
+      <NavBar />
+      <Header headerText="Home Page" />
       <p>What a world</p>
     </div>
   )
