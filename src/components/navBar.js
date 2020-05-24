@@ -1,13 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
-export default function navBar() {
+const NavBar = () => {
   return (
     <nav>
       <div>
-        <Link to="/">Home </Link>
+        <Link to="/"> Home</Link>
       </div>
       <div>
-        <Link to="/about/">About </Link>
+        <Link to="/about/">About</Link>
       </div>
       <div>
         <Link to="/contact/">Contact</Link>
@@ -15,3 +15,4 @@ export default function navBar() {
     </nav>
   )
 }
+export default NavBar
