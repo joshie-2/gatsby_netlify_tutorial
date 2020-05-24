@@ -1,13 +1,15 @@
 import React from "react"
-import NavBar from "../components/navBar"
-import Header from "../components/header"
+import Layout from "../components/layout"
 
 export default function Contact() {
   return (
-    <div style={{ color: `purple` }}>
-      <NavBar />
-      <Header headerText="Contact Page" />
-      <p>Send us a message!</p>
-    </div>
+    <Layout>
+      <p>
+        Send me a message! on
+        <a href="https://www.linkedin.com/in/joshuaselfe/">LinkedIn</a>
+        or
+        <a href="https://twitter.com/joshua_selfe">Twitter</a>
+      </p>
+    </Layout>
   )
 }
