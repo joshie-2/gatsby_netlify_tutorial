@@ -1,9 +1,25 @@
 import React from "react"
-import NavBar from "../components/navBar"
+import { Link } from "gatsby"
 const Header = props => {
   return (
     <header>
-      <NavBar />
+      <h1>Joshua Selfe</h1>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/"> Home</Link>
+          </li>
+          <li>
+            <Link to="/about/">About</Link>
+          </li>
+          <li>
+            <Link to="/contact/">Contact</Link>
+          </li>
+          <li>
+            <Link to="/blog/">Blog</Link>
+          </li>
+        </ul>
+      </nav>
       <h1>{props.headerText}</h1>
     </header>
   )
