@@ -1,9 +1,17 @@
 import React from "react"
 import Layout from "../components/layout"
-export default function Home() {
+const HomePage = () => {
   return (
     <Layout>
-      <p>My home page text</p>
+      <h2>I am a product and business strategist from Baltimore</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ab
+        architecto laborum illo, exercitationem saepe, nisi corrupti voluptas
+        inventore excepturi vero fugit! Illum odit dolor aliquid. Soluta rem
+        debitis est?
+      </p>
     </Layout>
   )
 }
+
+export default HomePage

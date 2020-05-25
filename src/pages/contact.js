@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 
-export default function Contact() {
+const ContactPage = () => {
   return (
     <Layout>
       <p>
@@ -13,3 +13,4 @@ export default function Contact() {
     </Layout>
   )
 }
+export default ContactPage
