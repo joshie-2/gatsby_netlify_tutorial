@@ -10,7 +10,6 @@ const HomePage = () => {
         </span>{" "}
         I am a product and business strategist from Baltimore
       </h2>
-      <h3>My life is enriched by my wife Jena!</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ab
         architecto laborum illo, exercitationem saepe, nisi corrupti voluptas
