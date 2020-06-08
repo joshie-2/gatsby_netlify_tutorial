@@ -6,12 +6,18 @@ import blogStyles from "./blog.module.scss"
 const BlogPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      allContentfulBlogPost(sort: { fields: publishDate, order: DESC }) {
+      allContentfulBlogPost {
         edges {
           node {
             title
             slug
             publishDate(formatString: "LL")
+            Image {
+              title
+              file {
+                url
+              }
+            }
           }
         }
       }
@@ -26,6 +32,10 @@ const BlogPage = () => {
             <li className={blogStyles.post}>
               <Link to={`/blog/${post.node.slug}`}>
                 <h2>{post.node.title}</h2>
+                <img
+                  src={post.node.Image.file.url}
+                  alt={post.node.Image.title}
+                />
                 <p>{post.node.publishDate}</p>
               </Link>
             </li>
