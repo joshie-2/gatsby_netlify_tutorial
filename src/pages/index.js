@@ -1,8 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
+import Head from "../components/head"
 const HomePage = () => {
   return (
     <Layout>
+      <Head title="Home" />
       <h2>
         Hello{" "}
         <span role="img" aria-label="hand wave icon">

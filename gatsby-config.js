@@ -17,6 +17,7 @@ module.exports = {
     twitterProfileUrl: "https://twitter.com/joshua_selfe",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     {
       resolve: `gatsby-source-contentful`,
